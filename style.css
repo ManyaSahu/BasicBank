@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(2, 100, 199);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-duration: 2s;
+    animation-name: come;
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+}
+.title1{
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(2, 100, 199);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-duration: 2s;
+    animation-name: come;
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+
+
+@keyframes come {
+    0%{
+        color:rgb(255, 174, 0);
+        transform: scale(1.01);
+        text-shadow:5px black;
+       
+     
+    }
+    20%{
+        color:rgb(73, 137, 255);
+        color:rgb(255, 174, 0);
+        transform: scale(1.02);
+        text-shadow:1px 1px2px gainsboro;
+        
+    }
+    40%{
+        color:rgb(30, 142, 255);
+        transform: scale(1.03);
+        text-shadow:1px 1px 3px gainsboro;
+    }
+    80%{
+        color:rgb(0, 128, 255);
+        transform: scale(1.04);
+        text-shadow:1px 1px 5px gainsboro;
+    }
+    100%{
+        color:rgb(0, 91, 181);
+        transform: scale(1.06);    }
+    
+}
+.btn3{
+    border-radius: 0%;
+    color: white;
+    padding:7px;
+    background-color:rgb(232,11,81);
+    border: 2px solid rgb(232,11,81);
+   text-decoration: none;
+    font-size: 20px;
+}
+.btn3:hover{
+    border: 2px solid rgb(232,11,81);
+    background-color: rgb(255, 255, 255);
+    color:rgb(232,11,81);
+    box-shadow: 2px 2px 12px rgb(232,11,81);
+    
+    animation-duration: 2s;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.nav-link{
+    color:white;
+        
+    animation-duration: 2s;
+    animation-name: come;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+.nav-link:hover{
+    transform:scale(1.1);
+    color:rgb(255, 174, 0);
+    font-weight: bold;
+   
+}
+.btn1{
+
+    padding:7px;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(8, 125, 57);
+    font-size: 20px;
+    border:none;
+    border-radius: 4px;
+    font-family:'Times New Roman', Times, serif;
+}
+.btn2{
+
+    padding:7px;
+    text-decoration: none;
+    color:white;
+    border-radius: 4px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(254, 58, 58);
+    font-size: 20px;
+
+}
+
+
